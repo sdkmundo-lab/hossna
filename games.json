@@ -1,34 +1,45 @@
 {
-    "gamesList": [
+  "gamesList": [
     {
-      "title": "PUBG GLOBAL",
+      "title": "PUBG Mobile Global",
       "package": "com.tencent.ig",
-      "version": "4.0.0",
-      "status": "Safe"
+      "version": "3.9.0",
+      "status": "Active",
+      "deskripsi": "Versi Global PUBG Mobile dengan update terbaru.",
+      "drm_verion": "1.0.5"
     },
     {
-      "title": "PUBG KOREA",
+      "title": "PUBG Mobile Korea",
       "package": "com.pubg.krmobile",
-      "version": "3.8.0",
-      "status": "Safe"
+      "version": "3.9.0",
+      "status": "Active",
+      "deskripsi": "PUBG Mobile versi Korea dengan konten eksklusif.",
+      "drm_verion": "1.0.5"
     },
-      {
-        "title": "PUBG VIETNAM",
-        "package": "com.vng.pubgmobile",
-        "version": "3.8.0",
-        "status": "Safe"
-      },
     {
-      "title": "PUBG TAIWAN",
-      "package": "com.rekoo.pubgm",
-      "version": "3.8.0",
-      "status": "Safe"
+      "title": "PUBG Mobile Vietnam",
+      "package": "com.vng.pubgmobile",
+      "version": "3.9.0",
+      "status": "Maintenance",
+      "deskripsi": "PUBG Mobile versi Vietnam, khusus server VNG.",
+      "drm_verion": "1.0.4"
     },
-      {
-        "title": "PUBG INDIA",
-        "package": "com.pubg.imobile",
-        "version": "3.7.0",
-        "status": "Safe"
-      }
+    {
+      "title": "PUBG Mobile Taiwan",
+      "package": "com.rekoo.pubgm",
+      "version": "3.9.0",
+      "status": "Active",
+      "deskripsi": "PUBG Mobile versi Taiwan dengan fitur lokal.",
+      "drm_verion": "1.0.3"
+    },
+    {
+      "title": "PUBG Mobile India",
+      "package": "com.pubg.imobile",
+      "version": "4.0.0",
+      "status": "Active",
+      "deskripsi": "PUBG Mobile versi Taiwan dengan fitur lokal.",
+      "drm_verion": "1.0.3"
+    }
   ]
+  
 }
