@@ -1,34 +1,46 @@
 {
-    "gamesList": [
-    {
-      "title": "PUBG GLOBAL",
+  "aplikasi": {
+    "G1": {
+      "id": 0,
       "package": "com.tencent.ig",
-      "version": "4.0.0",
-      "status": "Safe"
+      "status": "أمن",
+      "title": "PUBG GLOBAL",
+      "version": "3.3.0"
     },
-    {
-      "title": "PUBG KOREA",
+    "G2": {
+      "id": 1,
       "package": "com.pubg.krmobile",
-      "version": "4.0.0",
-      "status": "Safe"
+      "status": "Live",
+      "title": "PUBG KOREA",
+      "version": "3.3.0"
     },
-      {
-        "title": "PUBG VIETNAM",
-        "package": "com.vng.pubgmobile",
-        "version": "4.0.0",
-        "status": "Safe"
-      },
-    {
-      "title": "PUBG TAIWAN",
+    "G3": {
+      "id": 2,
+      "package": "com.vng.pubgmobile",
+      "status": "Live",
+      "title": "PUBG VIETNAM",
+      "version": "3.3.0"
+    },
+    "G4": {
+      "id": 3,
       "package": "com.rekoo.pubgm",
-      "version": "4.0.0",
-      "status": "Safe"
+      "status": "Live",
+      "title": "PUBG TAIWAN",
+      "version": "3.3.0"
+    }
+  },
+  "loader": {
+    "BGMI": {
+      "gamename": "BGMI",
+      "name": "libbgmi.so",
+      "url": "https",
+      "version": 1
     },
-      {
-        "title": "PUBG INDIA",
-        "package": "com.pubg.imobile",
-        "version": "4.0.0",
-        "status": "Risk"
-      }
-  ]
+    "PUBGM": {
+      "gamename": "PUBGM",
+      "name": "libpubgm.so",
+      "url": "https",
+      "version": 1
+    }
+  }
 }
